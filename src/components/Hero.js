@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="min-h-[92vh] flex items-center bg-gradient-to-r from-[#f8f9fa] to-[#edf2f4]">
+    <section className="min-h-[92vh] flex items-center bg-gradient-to-r from-[#f8f9fa] to-[#edf2f4] pt-20 md:pt-0">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         
         {/* Left Side - Image */}

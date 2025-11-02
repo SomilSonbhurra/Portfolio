@@ -54,7 +54,7 @@ export default function Hero() {
 
             <a
               href="/resume"
-              download="../resume.pdf"
+              download="public/resume.pdf"
               className="inline-block border border-accent text-accent px-6 py-3 rounded-lg hover:bg-accent hover:text-white transition"
             >
               Download Resume

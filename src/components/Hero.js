@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="min-h-[92vh] flex items-center bg-gradient-to-r from-[#f8f9fa] to-[#edf2f4] pt-20 md:pt-0">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-        
+
         {/* Left Side - Image */}
         <motion.div
           initial={{ opacity: 0, x: -40 }}
@@ -40,7 +40,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 text-gray-700 text-lg md:text-xl max-w-xl">
-            A passionate <span className="font-semibold text-primary">Full Stack Developer</span> who loves building modern, responsive, and dynamic web applications using 
+            A passionate <span className="font-semibold text-primary">Full Stack Developer</span> who loves building modern, responsive, and dynamic web applications using
             <span className="text-accent"> React.js</span>, <span className="text-accent">Node.js</span>, <span className="text-accent">Express</span>, and <span className="text-accent">MongoDB</span>.
           </p>
 
@@ -53,8 +53,8 @@ export default function Hero() {
             </a>
 
             <a
-              href="/resume.pdf"
-              download
+              href="/resume"
+              download="../resume.pdf"
               className="inline-block border border-accent text-accent px-6 py-3 rounded-lg hover:bg-accent hover:text-white transition"
             >
               Download Resume
